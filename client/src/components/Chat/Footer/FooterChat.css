@@ -1,0 +1,61 @@
+.footer-chat {
+    width: 100%;
+    height: 9%;
+    position: absolute;
+    background-color: #F5F5F5;
+    bottom: 0;
+    left: 0;
+    border-top: 2px #DBDBDB solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea-chat {
+    width: 91%;
+    height: 28%;
+
+    border-radius: 10px;
+    border: 2px #DBDBDB solid;
+
+    padding: 1% 5% 1% 1%;
+    font-size: 12pt;
+    outline: none;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.textarea-chat::-webkit-scrollbar {
+    display: none;
+}
+
+.textarea-chat {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.textarea-chat:hover, .textarea-chat:focus {
+    border: 2px black solid;
+}
+
+.textarea-chat::placeholder {
+    color: #7F7F7F;
+}
+
+.icon-send {
+    color: #7F7F7F;
+    font-size: 14pt;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.icon-send:hover {
+    color: black;
+}
+
+.icon-send:active {
+    color: #DBDBDB;
+}

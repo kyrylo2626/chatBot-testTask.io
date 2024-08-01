@@ -1,0 +1,8 @@
+.body-chat {
+    width: 99.5%;
+    height: 80%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
