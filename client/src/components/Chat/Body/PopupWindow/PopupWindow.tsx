@@ -44,7 +44,7 @@ export default function PopupWindow() {
             <div className='popup-window' style={{bottom: `${chatRefId ? '14%' : '2.5%'}`}}>
                 <div className='popup-window-info'>
                     <div className='popup-window-image'>
-                        <img src='../../../public/female.svg' className='icon-person'/>
+                        <img src='../male.svg' className='icon-person'/>
                     </div>
                     <div className='popup-window-data'>
                         <div className='popup-window-name'>
