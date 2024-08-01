@@ -16,7 +16,7 @@ export default function HeaderChat(props: { manageWindowPack: TManageWindow }) {
     return (
         <div className="header-chat">
             <div className='header-chat-image'>
-            <img src='../../../public/male.svg' className='icon-person'/>
+            <img src='../male.svg' className='icon-person'/>
                 <IoCheckmarkCircleOutline  className='icon-online' />
             </div>
             <label className='header-chat-name'>{getChat.isSuccess && getChat.data.name}</label>
