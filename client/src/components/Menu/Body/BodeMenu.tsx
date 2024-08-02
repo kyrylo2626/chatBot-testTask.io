@@ -33,7 +33,7 @@ export default function BodyMenu() {
     const { toggleModalWindow } = useLocalStore();
     const openCreateWindow = () => toggleModalWindow({ create: true });
 
-    const searchChatAction = (item: IChat) => { return item.name.toLowerCase().startsWith(searchChat.toLowerCase()) }
+    const searchChatAction = (item: IChat) => { return item.name.toLowerCase().split(' ').some(element => element.startsWith(searchChat.toLowerCase())) }
 
     
     return (
