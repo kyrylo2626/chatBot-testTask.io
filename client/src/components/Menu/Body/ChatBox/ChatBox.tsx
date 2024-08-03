@@ -21,7 +21,7 @@ export default function ChatBox(props: { chat_id: string }) {
     return (
         <div className="chat-box" onClick={() => setChatRefId(props.chat_id)}>
             <div className='chat-box-image'>
-                <img src={`${import.meta.env.VITE_ICONS_PATH}/male.svg`} className='icon-person'/>
+                <img src='../male.svg' className='icon-person'/>
                 <IoCheckmarkCircleOutline className='icon-online' />
             </div>
             <div className='chat-box-info'>
