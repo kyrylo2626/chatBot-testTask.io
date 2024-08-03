@@ -1,0 +1,68 @@
+.chat-box {
+    width: 96%;
+    height: 11%;
+    border-bottom: 2px #DBDBDB solid;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+
+.chat-box * { cursor: inherit }
+
+.chat-box:hover { background-color: #f0f0f5 }
+.chat-box:active { background-color: #e1e1e6 }
+
+.chat-box-image {
+    height: 90%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 2px #DBDBDB solid;
+    background-color: white;
+    position: relative;
+}
+
+.chat-box-info {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chat-box-datetime {
+    height: 90%;
+    width: 20%;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10pt;
+    color: gray;
+}
+
+.chat-box-name { font-size: 12pt }
+
+.chat-box-text {
+    font-size: 10pt;
+    color: gray;
+}
+
+.icon-online {
+    color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 16pt;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 2px green, 0 0 4px green;
+}
+
+.icon-person {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 50%;
+}

@@ -1,0 +1,69 @@
+.main-modal-window {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+.wrapper {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+
+.modal-window {
+    background-color: white;
+    width: 35%;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1000;
+}
+
+.modal-window-label {
+    width: 100%;
+    font-weight: 600;
+    color: #3A4153;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-window-button {
+    width: 39%;
+    height: 59%;
+    font-size: 15pt;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+.modal-window-button:hover { background-color: white }
+.modal-window-button:active { background-color: #e1e1e6 }
+
+.gray-btn {
+    background-color: #3A4153;
+    border: 3px #3A4153 solid;
+}
+.gray-btn:hover { color: #3A4153 }
+.gray-btn:active { color: #3A4153 }
+
+.red-btn {
+    background-color: #c70000;
+    border: 3px #c70000 solid;
+}
+.red-btn:hover { color: #c70000 }
+.red-btn:active { color: #c70000 }
