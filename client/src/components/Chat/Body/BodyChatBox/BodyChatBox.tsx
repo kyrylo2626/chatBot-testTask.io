@@ -33,7 +33,7 @@ export default function BodyChatBox(props: { message: IMessage }) {
                         {
                             message.from_bot &&
                                 <div className={`${TAG}-image`}>
-                                    <img src={`${import.meta.env.VITE_ICONS_PATH}/male.svg`} className='icon-person'/>
+                                    <img src='../male.svg' className='icon-person'/>
                                 </div>
                         }
                         <div className={`${TAG}-message ${TAG}-message-${OWN}`}>
