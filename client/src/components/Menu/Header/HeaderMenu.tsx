@@ -27,7 +27,7 @@ export default function HeaderMenu() {
                             user.isSuccess 
                             ?
                             <>
-                                <img src={`${import.meta.env.VITE_ICONS_PATH}/${user.data.sex === 'male' ? 'male' : 'female'}.svg`} className='icon-person'/>
+                                <img src='../male.svg' className='icon-person'/>
                                 {
                                     user.data.online
                                     ? <IoCheckmarkCircleOutline className='icon-online' style={{fontSize: '12pt'}} />
@@ -36,7 +36,7 @@ export default function HeaderMenu() {
                             </>
                             :
                             <>
-                                <img src={`${import.meta.env.VITE_ICONS_PATH}/male.svg`} className='icon-person'/>
+                                <img src='../male.svg' className='icon-person'/>
                                 <IoRemoveCircleOutline className='icon-offline' style={{fontSize: '12pt'}} />
                             </>
                         }
